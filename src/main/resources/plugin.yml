@@ -1,0 +1,21 @@
+name: PlayerSleepX
+version: '${version}'
+main: de.scholle.playersleep.PlayerSleep
+prefix: SleepX
+load: STARTUP
+authors: [Mobilestars]
+description: Control how many players must sleep to skip the night.
+website: https://modrinth.com/project/playersleep
+
+commands:
+  playersleep:
+    description: Main command for PlayerSleep
+    usage: /playersleep <reload|set>
+    aliases: [psleep]
+    permission: playersleep.command
+    permission-message: You do not have permission to use this command.
+
+permissions:
+  playersleep.command:
+    description: Allows use of the /playersleep command
+    default: op

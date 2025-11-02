@@ -1,0 +1,22 @@
+# ==== PlayerSleepX-Config ====
+# Controls how many players must sleep to skip the night.
+
+# ==== Status ====
+# Enable or disable the sleep control feature.
+enabled: true
+
+# ==== Mode ====
+# Mode options:
+#  - "percentage": Uses a percentage of online players.
+#  - "amount": Uses a fixed number of players.
+#
+# NOTE: When using "amount" mode and fewer players are online
+#       than the specified value, only the number of online
+#       players will be required to skip the night.
+mode: "percentage"   # "percentage" or "amount"
+
+# ==== Value ====
+# The value for the chosen mode:
+#  - If mode = "percentage", this is the percentage (0–100).
+#  - If mode = "amount", this is the number of players required.
+value: 50
