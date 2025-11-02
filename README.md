@@ -100,7 +100,7 @@ You are free to use, modify, and distribute this plugin under the terms of the A
 ## 🌐 Links
 
 * 🔗 [Modrinth Page](https://modrinth.com/project/playersleep)
-* 💬 [Issues & Suggestions](https://modrinth.com/project/playersleep/issues)
+* 💬 [Issues & Suggestions](https://github.com/Mobilestars/PlayerSleepX/issues)
 
 ---
 
